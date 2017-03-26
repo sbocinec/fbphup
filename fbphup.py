@@ -4,7 +4,7 @@
 fbphup - Facebook photo uploader
 """
 
-_author__ = "Stanislav Bocinec"
+__author__ = "Stanislav Bocinec"
 __copyright__ = "Copyright 2017, Stanislav Bocinec, svacko@gmail.com"
 __license__ = "BSD 2-Clause"
 __version__ = "0.0.1"

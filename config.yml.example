@@ -1,12 +1,10 @@
 ---
 fb_album_id: '1234567890'
 fb_album_name: 'Album name'
-fb_album_year: '201702'
 fb_album_path: 'Full path to the directory containing photos'
 fb_album_desc: 'Album description text'
 fb_album_photos:
   - name: Photo001.jpg
     desc: Photo001 Description text
-
-  - name: Photo002.jog
+  - name: Photo002.jpg
     desc: Photo 002 Description text
