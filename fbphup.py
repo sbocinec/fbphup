@@ -21,14 +21,6 @@ import sys
 import yaml
 
 
-class FbAlbum():
-    def __init__(self, config):
-            self.fb_album_id = None
-            self.fb_album_name = None
-            self.fb_album_path = None
-            self.fb_album_desc = None
-            self.fb_album_photos = []
-
 def load_secret():
     with open('./secret.yml', 'r') as secret_file:
         try:
