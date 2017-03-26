@@ -75,14 +75,12 @@ def main():
         sys.exit(1)
 
     graph = facebook.GraphAPI(access_token)
-    # Album: UPTEST. ID: 10155163793496952
 
     if args.action == 'list_albums':
         list_albums(graph)
     elif args.action == 'upload_photos':
         config = load_config(args.config_file)
         for photo in config['fb_album_photos']:
-        #album_id = '10155163793496952'
             upload_photo(graph, config['fb_album_id'], os.path.join(config['fb_album_path'], photo['name']), photo['desc'])
 
 
