@@ -1,0 +1,2 @@
+PyYAML == 3.12
+facebook-sdk == 2.0.0
