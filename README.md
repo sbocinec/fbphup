@@ -51,7 +51,7 @@ Generate new User Access token using [Graph API explorer](https://developers.fac
   - *user_photos*
 - Click *Get Access Token*
 - Copy the token from *Access Token* field into a local *secret.yml* file in following format:
-  - `access_token: 'abcedfghijklmnopqrstuvwxyz'`
+  - `fb_access_token: 'abcedfghijklmnopqrstuvwxyz'`
 
 ## TODO
 * ability to create a facebook album
